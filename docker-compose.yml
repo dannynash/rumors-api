@@ -27,7 +27,7 @@ services:
       - "4000:4000"
 
   api:
-    image: node:carbon@sha256:5aebe186c00da3308c8fde5b3a246d1927a56947a1b51f5c4308b7318adf74f4
+    image: node:carbon@sha256:717f84f9aa6a51a5c2914100812937261551e50a88f2323acc0b1d43a081b6e2
     container_name: rumors-api
     depends_on:
       - db
